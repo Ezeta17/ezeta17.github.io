@@ -1,0 +1,21 @@
+/* 
+  * Diseño de la nueva paleta de colores
+
+  * @version     v0.1
+  * @author      Josep Farias <ezeta17@gmail.com>
+  * @copyright:  ZetaLabs.net.ar - 2021
+
+  * History:
+  * v0.1 – Primera versión  
+  */
+
+      /* MATERIAL DESIGN PALETTE */
+      .Color_Primary  { background: #3F51B5; }  /* INDIGO: 500; */
+      .Color_Accent   { background: #4CAF50; }  /* GREEN 500;   */ 
+      .Primary_Dark   { background: #303F9F; }  /* INDIGO: 700; */
+      .Primary_Light  { background: #C5CAE9; }  /* INDIGO: 100; */
+      .Text_Color     { color: #FFFFFF; }       /* WHITE;       */
+      .Text_Primary   { color: #212121; }       /* GREY: 900;   */
+      .Text_Secundary { color: #757575; }       /* GREY: 600;   */
+      .Divider_Color  { border-color: #BDBDBD } /* GREY: 400;   */
+      
