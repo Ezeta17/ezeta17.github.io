@@ -43,54 +43,60 @@
     <!-- /Twitter Open Graph -->
 
     <!-- CSS -->
+    <link href="public/css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="public/css/fontawesome.css" rel="stylesheet" type="text/css">
+    <link href="public/css/brands.css" rel="stylesheet" type="text/css">
+    <link href="public/css/solid.css" rel="stylesheet" type="text/css">
     <link href="public/css/zetatyles.css" rel="stylesheet" type="text/css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Rubik:wght@300;400;500;900&display=swap" rel="stylesheet">
     <style>
+        .main {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            justify-content: center;
+            padding: 0 30px;
+            text-align: center;
+            background: #333333;
+            color: #FFFFFF;
+        }
+        
+        .icons-social i {
+            padding: 10px;
+        }
 
     </style>
     <!-- /CSS -->
 </head>
-<body class="Primary_Dark Text_Color">
+<body>
     <main>
-        <header class="card">
-            <div><img src="img/Josep-512x512.png" alt="Josep Farias" width="256 px" height="256 px" >
-                <h1>
-                    Hola, Soy Josep!
-                </h1>
-                <h2>
-                    Full-Stack JS Developer
-                </h2>
-                <nav>
-                    <a href="https://www.linkedin.com/in/jos%C3%A9-germ%C3%A1n-farias-309b0266/" target="_blank"><img src="img/linkedin.png" alt="Logo Linkedin"width="48px" height="48px"></a>
-                    <a href="https://github.com/ezeta17"target="_blank"><img src="img/github.png" alt="Logo Github"width="48px" height="48px"></a>
-                    <a href="https://www.instagram.com/ezeta17"target="_blank"><img src="img/instagram.png" alt="Logo Instagram"width="48px" height="48px"></a>
-                    <a href="mailto:ezeta17@gmail.com"target="_blank"><img src="img/correo.png" alt="Logo Email" width="48px" height="48px"></a>
-                </nav>
+        <div class="container-fluid main">
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-3 intro">
+                <img src="img/Josep-512x512.png" class="rounded-circle" alt="Josep Farias" width="256" height="256">
             </div>
-        </header>
-
-        <section class="card">
-            <p>Bienvenidos, aqui encontraras toda mi informacion personal. </p>
-            <p>Soy Adminsitrador de Sistema,con conocimientos en Windows y Linux, Docker, Virtualización</p>
-        
-            <ul>
-                <li><a href="docs/CV.pdf"target="_blank"><strong>Curriculum Vitae</strong> </a></li>
-                <li><a href="https://zetalabs.net.ar"target="_blank"><strong>Mis Proyectos</strong> </a></li>
-            </ul>
-        
-        </section>
-
-        <hr>
-
-        <footer class="card">
-            <div>
-                <p><strong>Copyright - ZetaLabs 2023</strong></p>
+            <div class="col-md-4">
+                <br>
+                <br>
+                <div class="page-header">
+                <h1> Hola, Soy Josep!
+                    <br><small>Full-Stack Developer</small>
+                    </h1>
+                </div>
+                
+                <br>
+                <!-- Find your icons from here - https://fontawesome.com/icons?d=gallery&s=brands -->
+                <div class="icons-social">
+                    <a target="_blank" href="http://zetalabs.net.ar"><i class="fas fa-globe"></i></a>
+                    <a target="_blank" href="https://github.com/ezeta17"><i class="fab fa-github"></i></a>
+                    <a target="_blank" href="https://twitter.com/ezeta17"><i class="fab fa-twitter"></i></a>
+                    <a target="_blank" href="https://www.linkedin.com/in/ezeta17"><i class="fab fa-linkedin"></i></a>
+                    <a target="_blank" href="mailto:ezeta17@gmail.com"><i class="fas fa-envelope"></i></a>
+                </div>
             </div>
-        </footer>
-
-    </main>
+            <div class="col-md-2"></div>
+        </div>
+    </div>
 
 
 </body>

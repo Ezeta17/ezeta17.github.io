@@ -7,15 +7,77 @@
 
   * History:
   * v0.1 – Primera versión  
-  */
+*/
 
-      /* MATERIAL DESIGN PALETTE */
-      .Color_Primary  { background: #3F51B5; }  /* INDIGO: 500; */
-      .Color_Accent   { background: #4CAF50; }  /* GREEN 500;   */ 
-      .Primary_Dark   { background: #303F9F; }  /* INDIGO: 700; */
-      .Primary_Light  { background: #C5CAE9; }  /* INDIGO: 100; */
-      .Text_Color     { color: #FFFFFF; }       /* WHITE;       */
-      .Text_Primary   { color: #212121; }       /* GREY: 900;   */
-      .Text_Secundary { color: #757575; }       /* GREY: 600;   */
-      .Divider_Color  { border-color: #BDBDBD } /* GREY: 400;   */
-      
+  /* MATERIAL DESIGN PALETTE */
+  .Color_Primary  { background: #3F51B5; }  /* INDIGO: 500; */
+  .Color_Accent   { background: #4CAF50; }  /* GREEN 500;   */ 
+  .Primary_Dark   { background: #333333; }  /* INDIGO: 700; */
+  .Primary_Light  { background: #C5CAE9; }  /* INDIGO: 100; */
+  .Text_Color     { color: #FFFFFF; }       /* WHITE;       */
+  .Text_Primary   { color: #212121; }       /* GREY: 900;   */
+  .Text_Secundary { color: #757575; }       /* GREY: 600;   */
+  .Divider_Color  { border-color: #BDBDBD } /* GREY: 400;   */
+    
+  body{
+    text-align: center;
+    color: #FFFFFF;
+  }
+
+  header div img{
+       border-radius: 200px;
+  }
+
+  header h1{
+    font-family: 'Rubik', sans-serif;
+    font-size: 35px;
+  }
+
+  header h2{
+    font-family: 'Rubik', sans-serif;
+    
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: center;
+    padding: 0 30px;
+    text-align: center;
+    background: #333333;
+    color: #FFFFFF;
+  }
+
+  .card{
+    text-align: center; 
+     
+  }
+  
+  section{
+    font-family: 'Roboto Mono', monospace;
+    text-align: justify;
+  
+  }
+  
+  section ul li{
+    display: block;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: black;
+    margin-top: 30px;
+  }
+    
+  section ul li:hover{
+    color:white;
+  }
+
+  footer{
+      padding: 30px;
+      margin-bottom: auto;
+  }
+
+  a{
+      color: inherit;
+      text-decoration: none;
+  }
