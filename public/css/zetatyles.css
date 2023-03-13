@@ -39,14 +39,6 @@
     
   }
 
-  .icons{
-    filter: invert(1);
-    width: 48px;
-    height: 48px;
-    margin-left: 10px;
-    margin-bottom: 0px;
-  }
-
   main {
     display: flex;
     flex-direction: column;
@@ -62,32 +54,26 @@
     margin: auto;
     display: block;
   }
-  .card{
-    text-align: center; 
-  }
-  
-  section{
-    font-family: 'Roboto Mono', monospace;
-    text-align: justify;
-  
-  }
-  
-  section ul li{
-    display: block;
-    padding: 10px;
-    background-color: #4CAF50;
-    color: black;
-    margin-top: 30px;
-  }
-    
-  section ul li:hover{
-    color:white;
-  }
 
-  footer{
-      padding: 15px;
-      margin-bottom: auto;
+
+  .icons{
+    filter: invert(1);
+    width: 48px;
+    height: 48px;
+    margin-left: 10px;
+    margin-bottom: 0px;
   }
+  
+  .icons-social i {
+    padding: 10px;
+  }
+  
+  .text{
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+  
+  }
+  
 
   a{
       color: inherit;
